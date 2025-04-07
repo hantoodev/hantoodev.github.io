@@ -1,0 +1,115 @@
+body {
+    font-family: 'Anonymous Pro', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.container {
+    text-align: center;
+    padding: 37.5px;
+    background-color: #1f1f1f;
+    border-radius: 12.5px;
+    max-width: 80%;
+}
+
+img {
+    width: 125px;
+    height: 125px;
+    border-radius: 62.5px;
+    object-fit: cover;
+}
+
+h1 {
+    margin-top: 25px;
+    font-size: 2.5em;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    margin: 25px 0;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.social-links li a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    color: #ffffff;
+}
+
+.social-links img {
+    width: 100%;
+    height: 100%;
+}
+
+.button {
+    font-family: 'Muli', monospace;
+    display: inline-block;
+    padding: 12.5px 25px;
+    margin: 12.5px 0;
+    border: none;
+    border-radius: 6.25px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.5em;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-links li:last-child svg { 
+    width: 50px; 
+    height: 50px; 
+    fill: #ffffff;
+}
+
+.social-links li:last-child a svg {
+    fill: #ffffff;
+}
+
+.subscribe-button {
+    background-color: #ff0000;
+}
+
+.superduo-button {
+    background-color: #6a0dad;
+}
+
+.duolingo-button {
+    background-color: rgb(19, 134, 19);
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("res/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+h1 {
+  color: #333;
+}
+
+p {
+  color: #666;
+}
